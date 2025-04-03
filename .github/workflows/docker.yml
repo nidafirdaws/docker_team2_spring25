@@ -68,7 +68,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/nidafirdaws/donkeycar_team2_sp25
+          images: nidafirdaws/donkeycar_team2_sp25
           tags: dev
  
       - name: Build and push notebook
